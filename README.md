@@ -1,12 +1,18 @@
 # url-shortener
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A [re-frame](https://github.com/Day8/re-frame) application designed to shorten urls.
+
+## Prerequisites
+
+Clojure [https://clojure.org/guides/getting_started]
+Leiningen [https://leiningen.org/#install]
 
 ## Development Mode
 
 ### Run application:
 
 ```
+lein deps
 lein clean
 lein figwheel dev
 ```
